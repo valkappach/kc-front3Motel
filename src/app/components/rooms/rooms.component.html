@@ -1,0 +1,360 @@
+
+<section style="margin-top: 76px;">
+  <nav class="navbar navbar-expand-md bg-light navbar-light ">
+
+
+    <ul class="navbar-nav w-100 justify-content-xl-end">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Nos offres</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Rooms</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+    <div class="container-fluid">
+
+      <!-- Button to Open the Modal -->
+
+
+      <!-- The Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title ml-auto">Verifier la disponibilité</h4>
+              <button type="button" class="close" data-dismiss="modal">×</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+              <form class="form-inline" action="/action_page.php" style="margin: auto">
+                <div class="col-md-4"><label for="datetime-local">ARRIVER: </label> </div>
+                <div class="col-md-8">
+                  <input type="datetime-local" class="form-control" id="datetime-local" placeholder="Enter email" name="datetime-local">
+                </div>
+                <div class="col-md-4"><label for="datetime-local">DEPART: </label> </div>
+
+                <div class="col-md-8">
+                  <input type="datetime-local" class="form-control" id="datetime-local2" placeholder="Enter email" name="datetime-local">
+                </div>
+
+                <div class="col-md-12"><button type="submit" class="btn btn-outline-secondary">reserver</button></div>
+              </form>
+
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">fermer</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </nav>
+
+
+</section>
+
+
+<section>
+
+  <div class="container-fluid">
+
+    <div class="row ">
+
+      <div class="col-8 bg-secondary p-lg-5">
+        <div class="col-12 bg-light p-lg-5">
+          <div class="form-group">
+            <input type="text" bsDatepicker class="form-control " id="datetime-local3 " placeholder="date" name="datetime-local3">
+          </div>
+          <h2 class="m-lg-5">Booking</h2>
+
+          <button type="button" class="btn btn-outline-secondary ml-sm-5" data-toggle="collapse" data-target="#demo">date</button>
+          <button type="button" class="btn btn-outline-secondary ml-sm-5" data-toggle="collapse" data-target="#demo2">info personnelles</button>
+          <button type="button" class="btn btn-outline-secondary ml-sm-5" data-toggle="collapse" data-target="#demo3">invités</button>
+        </div>
+        <h2 class="mt-4 text-md-center text-white">Select Room</h2>
+
+        <div class="row">
+          <div class="col-4 bg-light m-0 p-4">
+            <div class="card  p-md-0" >
+              <!--  <img class="card-img-top"-->
+
+              <picture><source media="(min-width:768px)" srcset="../../../assets/suku3.jpg">
+                <img class="card-img-top" alt="couple" src="../../../assets/suku3.jpg" srcset="../../../assets/suku3.jpg" >
+              </picture>
+              <!--       src="img_avatar1.png" alt="Card image" style="width:100%">-->
+              <div class="card-body">
+                <h4 class="card-title">Room accacia</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <a routerLink="/reservations" class="btn btn-outline-secondary stretched-link">Reserver</a>
+              </div>
+            </div>
+          </div>
+
+<!--          <div class="col-4 bg-light m-0">-->
+<!--            <div class="card  p-md-0" >-->
+<!--              &lt;!&ndash;  <img class="card-img-top"&ndash;&gt;-->
+
+<!--              <picture><source media="(min-width:768px)" srcset="../../../assets/suku3.jpg">-->
+<!--                <img class="card-img-top" alt="couple" src="../../../assets/suku3.jpg" srcset="../../../assets/suku3.jpg" >-->
+<!--              </picture>-->
+<!--              &lt;!&ndash;       src="img_avatar1.png" alt="Card image" style="width:100%">&ndash;&gt;-->
+<!--              <div class="card-body">-->
+<!--                <h4 class="card-title">Room accacia</h4>-->
+<!--                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>-->
+<!--                <a routerLink="/reservations" class="btn btn-outline-secondary stretched-link">Reserver</a>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+
+          <div class="col-8 bg-light">.col-6</div>
+          <hr class="w-100">
+          <div class="col-4 bg-light m-0">
+            <div class="card  p-md-0" >
+              <!--  <img class="card-img-top"-->
+
+              <picture><source media="(min-width:768px)" srcset="../../../assets/suku3.jpg">
+                <img class="card-img-top" alt="couple" src="../../../assets/suku3.jpg" srcset="../../../assets/suku3.jpg" >
+              </picture>
+              <!--       src="img_avatar1.png" alt="Card image" style="width:100%">-->
+              <div class="card-body">
+                <h4 class="card-title">Room accacia</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <a routerLink="/reservations" class="btn btn-outline-secondary stretched-link">Reserver</a>
+              </div>
+            </div>
+          </div>
+
+          <!--          <div class="col-4 bg-light m-0">-->
+          <!--            <div class="card  p-md-0" >-->
+          <!--              &lt;!&ndash;  <img class="card-img-top"&ndash;&gt;-->
+
+          <!--              <picture><source media="(min-width:768px)" srcset="../../../assets/suku3.jpg">-->
+          <!--                <img class="card-img-top" alt="couple" src="../../../assets/suku3.jpg" srcset="../../../assets/suku3.jpg" >-->
+          <!--              </picture>-->
+          <!--              &lt;!&ndash;       src="img_avatar1.png" alt="Card image" style="width:100%">&ndash;&gt;-->
+          <!--              <div class="card-body">-->
+          <!--                <h4 class="card-title">Room accacia</h4>-->
+          <!--                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>-->
+          <!--                <a routerLink="/reservations" class="btn btn-outline-secondary stretched-link">Reserver</a>-->
+          <!--              </div>-->
+          <!--            </div>-->
+          <!--          </div>-->
+
+          <div class="col-8 bg-light">.col-6</div>
+
+        </div>
+
+      </div>
+      <div class="col-4 bg-light m-0">
+
+
+          <div id="myCarousel" class="carousel slide " data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner ">
+              <div class="carousel-item active ">
+
+                <picture>
+                  <source  srcset="assets/suku3.jpg">
+                  <!--                  <source media="(min-width: 768px)" srcset="assets/footer.png">-->
+                  <img alt="Responsive Image" src="assets/suku3.jpg" srcset="assets/suku3.jpg">
+                </picture>
+              </div>
+              <div class="carousel-item ">
+
+                <picture>
+                  <source  srcset="assets/suku3.jpg">
+<!--                  <source media="(min-width: 768px)" srcset="assets/footer.png">-->
+                  <img alt="Responsive Image" src="assets/suku3.jpg" srcset="assets/suku3.jpg">
+                </picture>
+              </div>
+              <div class="carousel-item ">
+
+                <picture>
+                  <source  srcset="assets/suku3.jpg">
+                  <img alt="Responsive Image" src="assets/suku3.jpg" srcset="assets/suku3.jpg">
+                </picture>
+
+                <!--            <picture>-->
+                <!--              <source media="(min-width: 768px)" srcset="assets/luxeImg.jpg">-->
+                <!--              <img alt="Responsive Image" src="assets/luxeImg.jpg" srcset="assets/luxeImg.jpg">-->
+                <!--            </picture>-->
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--        <div class="col-8 bg-light">.col-6</div>-->
+
+      </div>
+<!--      <div class="col-4 bg-success">.col-4</div>-->
+    </div>
+
+  </div>
+</section>
+
+<!--<section>-->
+<!--  <div *ngIf="rooms$">-->
+
+<!--    <table>-->
+<!--      <tr>-->
+<!--        <th>ID</th>-->
+<!--        <th>roomNumber</th>-->
+<!--        <th>roomCode</th>-->
+<!--        <th>beds</th>-->
+<!--        <th>checkIn</th>-->
+<!--        <th>checkOut</th>-->
+<!--        <th>available</th>-->
+<!--        <th>currentPrice</th>-->
+<!--        <th>promotion</th>-->
+<!--        <th>selected</th>-->
+<!--        <th>photoName</th>-->
+<!--        <th>description</th>-->
+<!--        <th>reservation</th>-->
+<!--      </tr>-->
+<!--      &lt;!&ndash; async surveille les données obesrvable &ndash;&gt;-->
+<!--      <tr *ngFor="let r of rooms$ | async">-->
+
+<!--        <td>{{r.id}}</td>-->
+<!--        <td>{{r.roomNumber}}</td>-->
+<!--        <td>{{r.roomCode}}</td>-->
+<!--        <td>{{r.beds}}</td>-->
+<!--        <td>{{r.checkIn}}</td>-->
+<!--        <td>{{r.checkOut}}</td>-->
+<!--        <td>{{r.available}}</td>-->
+<!--        <td>{{r.currentPrice}}</td>-->
+<!--        <td>{{r.promotion}}</td>-->
+<!--        <td>{{r.selected}}</td>-->
+<!--        <td>{{r.photoRoomUrl}}</td>-->
+<!--        <td>{{r.description}}</td>-->
+<!--        <td>{{r.reservation}}</td>-->
+
+<!--      </tr>-->
+
+
+<!--    </table>-->
+
+<!--  </div>-->
+
+
+
+<!--</section>-->
+
+
+
+
+
+
+<!----------------------------------------cours tyliane -------------------------->
+
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--  <title>Page Title</title>-->
+<!--  <style>-->
+
+<!--    .a1{-->
+<!--      float:left;-->
+<!--      background:blue;}-->
+<!--    .a2{-->
+<!--      float:left;-->
+<!--      background:white;}-->
+<!--    .a3{-->
+<!--      float:left;-->
+<!--      background:red;}-->
+
+
+
+<!--    .a1,.a2,.a3{-->
+
+<!--      width:200px;-->
+<!--      height:600px;-->
+
+<!--    }-->
+
+<!--  </style>-->
+<!--</head>-->
+<!--<body>-->
+
+<!--<div class="a1">-->
+<!--  <h2>Gardiens</h2>-->
+<!--  <ol>-->
+<!--    <li>Hugo Lloris</li>-->
+<!--    <li>Mike Maignan </li>-->
+<!--    <li>Steve Mandanda</li>-->
+<!--  </ol>-->
+<!--</div>-->
+<!--<div class="a2"><h2>Défenseurs</h2>-->
+<!--  <ol>-->
+<!--    <li>Lucas Digne</li>-->
+<!--    <li>Léo Dubois </li>-->
+<!--    <li>Lucas Hernandez</li>-->
+<!--    <li>Presnel Kimpembe</li>-->
+<!--    <li>Jules Koundé </li>-->
+<!--    <li>Clément Lenglet</li>-->
+<!--    <li>Benjamin Pavard </li>-->
+<!--    <li>Raphaël Varane</li>-->
+<!--    <li>Kurt Zouma</li>-->
+<!--  </ol></div>-->
+<!--<div class="a3">-->
+<!--  <h2>Milieux de terrain : </h2>-->
+<!--  <ol>-->
+<!--    <li>N'Golo Kanté</li>-->
+<!--    <li>Thomas Lemar</li>-->
+
+<!--    <li>Kurt Zouma</li>-->
+<!--  </ol></div></div>-->
+<!--&lt;!&ndash;Gardiens : Hugo Lloris (Tottenham), Mike Maignan (LOSC), Steve Mandanda (OM).-->
+
+
+
+<!--Défenseurs : Lucas Digne (Everton), Léo Dubois (OL), Lucas Hernandez (Bayern Munich), Presnel Kimpembe (PSG), Jules Koundé (FC Séville), Clément Lenglet (FC Barcelone), Benjamin Pavard (Bayern Munich), Raphaël Varane (Real Madrid), Kurt Zouma (Chelsea).-->
+
+
+
+<!--Milieux de terrain : N'Golo Kanté (Chelsea), Thomas Lemar (Atlético de Madrid), Paul Pogba (Manchester United), Adrien Rabiot (Juventus), Moussa Sissoko (Tottenham), Corentin Tolisso (Bayern Munich).-->
+
+
+
+<!--Attaquants : Wissam Ben Yedder (Monaco), Karim Benzema (Real Madrid), Kingsley Coman (Bayern Munich), Ousmane Dembélé (FC Barcelone), Olivier Giroud (Chelsea), Antoine Griezmann (FC Barcelone), Kylian Mbappé (PSG), Marcus Thuram (Borussia Mönchengladbach).&ndash;&gt;-->
+
+
+<!--</body>-->
+<!--</html>-->
